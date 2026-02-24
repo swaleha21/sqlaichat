@@ -1,0 +1,53 @@
+# ------------------------
+# Python cache and compiled files
+# ------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.whl
+
+# ------------------------
+# Virtual environment
+# ------------------------
+venv/
+env/
+llm/
+genai/
+Lib/
+Scripts/
+bin/
+
+# ------------------------
+# Environment variables / secrets
+# ------------------------
+.env
+.env.* 
+*.env
+
+# ------------------------
+# Streamlit cache and logs
+# ------------------------
+.streamlit/
+*.log
+
+# ------------------------
+# OS-specific files
+# ------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ------------------------
+# Jupyter / notebook checkpoints
+# ------------------------
+.ipynb_checkpoints/
+
+# ------------------------
+# Optional: PyCharm / VSCode
+# ------------------------
+.vscode/
+.idea/
